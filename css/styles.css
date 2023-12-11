@@ -428,7 +428,7 @@ img {
    overflow: hidden;
 }
 
-.portfolio-overlay-item:hover .overlay {
+.portfolio-list-item:hover .overlay {
    transform: translateY(0);
 }
 
