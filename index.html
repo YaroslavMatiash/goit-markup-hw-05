@@ -443,17 +443,18 @@
          </div>
       </div>
       <div class="form-item-textarea">
-      <label for="user-comment" class="form-label">Comment</label>
+         <label for="user-comment" class="form-label">Comment</label>
          <textarea class="form-textarea" name="user-comment" id="user-comment" rows="10" placeholder="Text input"></textarea>
       </div>
       <div class="privacy-checkbox-item">
-         <label for="user-privacy" class="privacy-form-label">I accept the terms and conditions of the 
+         <input type="checkbox" name="user-privacy" id="user-privacy" value="true" class="checkbox-input visually-hidden">
+         <label for="user-privacy" class="privacy-form-label"> 
             <span class="privacy-policy">
                <svg class="privacy-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-vector"></use>
                </svg>
             </span>
-            <input type="checkbox" name="user-privacy" id="user-privacy" value="true" class="visually-hidden">
+            I accept the terms and conditions of the
             <a href="" class="privacy-policy-link">Privacy Policy</a>
          </label>
       </div>
